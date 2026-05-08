@@ -1,0 +1,49 @@
+.mock-page { padding-bottom: 40px; }
+.mock-header { display:flex; align-items:center; justify-content:space-between; padding:14px 16px; background:var(--ink); color:white; position:sticky; top:0; z-index:50; gap:8px; }
+.mock-section-info { display:flex; flex-direction:column; }
+.mock-section-label { font-size:18px; font-weight:900; }
+.mock-section-label-he { font-size:11px; color:rgba(255,255,255,0.6); font-weight:700; direction:rtl; }
+.mock-timer { font-size:22px; font-weight:900; color:var(--mint); }
+.timer-yellow { color:var(--warn) !important; }
+.timer-red { color:var(--danger) !important; animation:pulse 1s infinite; }
+.mock-submit { font-size:13px; padding:10px 16px; white-space:nowrap; }
+.mock-progress { text-align:center; font-size:13px; color:var(--muted); padding:8px; background:#f8f9ff; border-bottom:1px solid var(--border); font-weight:700; }
+.mock-questions { display:flex; flex-direction:column; gap:0; }
+.mock-q { padding:18px 16px; border-bottom:2px solid var(--border); transition:background 0.2s; }
+.mock-q-answered { background:#f0fdf4; }
+.mock-q-num { display:flex; align-items:center; gap:8px; font-size:20px; font-weight:900; margin-bottom:10px; }
+.mock-type-tag { font-size:10px; font-weight:900; letter-spacing:0.5px; padding:3px 10px; border-radius:20px; }
+.mock-type-sc { background:#dbeafe; color:#1d4ed8; }
+.mock-type-rs { background:#ede9fe; color:#6d28d9; }
+.mock-type-rc { background:#dcfce7; color:#15803d; }
+.mock-passage-ref { font-size:13px; color:var(--accent2); margin-bottom:8px; font-weight:800; }
+.mock-read-link { cursor:pointer; text-decoration:underline; font-weight:900; }
+.mock-q-text { font-size:16px; line-height:1.8; margin-bottom:12px; color:var(--ink); font-weight:700; }
+.mock-options { display:flex; flex-direction:column; gap:6px; }
+.mock-opt { display:flex; align-items:center; gap:10px; padding:12px 14px; border:2px solid var(--border); border-radius:14px; background:white; font-size:15px; font-weight:700; cursor:pointer; text-align:left; transition:all 0.15s; }
+.mock-opt:hover { border-color:var(--accent); }
+.mock-opt-selected { border-color:var(--accent); background:#eef2ff; font-weight:900; }
+.mock-opt-num { width:24px; height:24px; border-radius:50%; border:2px solid var(--muted); display:flex; align-items:center; justify-content:center; font-size:12px; flex-shrink:0; font-weight:900; }
+.mock-intro { padding:0; }
+.mock-intro-grid { display:flex; gap:10px; margin:14px 0; }
+.mock-intro-item { flex:1; display:flex; flex-direction:column; align-items:center; gap:4px; background:var(--paper); border:2px solid var(--border); border-radius:14px; padding:12px; font-size:13px; text-align:center; font-weight:800; }
+.mii-icon { font-size:28px; }
+.mock-types { display:flex; flex-direction:column; gap:8px; margin:14px 0; }
+.mock-type-row { display:flex; align-items:center; gap:10px; font-size:14px; font-weight:700; }
+.mock-score-targets h4 { margin-bottom:8px; font-size:15px; }
+.mock-results { padding-bottom:40px; }
+.results-header { padding:36px 16px; text-align:center; color:white; }
+.results-emoji { font-size:56px; margin-bottom:10px; }
+.results-header h2 { font-size:26px; margin-bottom:4px; }
+.results-score-grid { display:flex; flex-direction:column; gap:12px; margin-bottom:18px; }
+.results-score-card { background:var(--card); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); display:flex; align-items:center; gap:16px; border:1.5px solid var(--border); }
+.results-score-main { border-color:var(--accent); border-width:2.5px; }
+.rsc-num { font-size:34px; font-weight:900; color:var(--accent); }
+.rsc-label { font-size:14px; color:var(--muted); font-weight:700; }
+.results-breakdown h3 { font-size:17px; margin-bottom:14px; }
+.sec-row { display:flex; align-items:center; gap:8px; margin-bottom:10px; font-size:13px; font-weight:800; }
+.sec-bar-wrap { flex:1; height:10px; background:var(--border); border-radius:99px; overflow:hidden; }
+.sec-bar { height:100%; border-radius:99px; transition:width 0.5s ease; }
+.results-advice { padding:18px; }
+.results-advice h4 { margin-bottom:10px; font-size:15px; }
+.results-advice p { font-size:14px; margin-bottom:8px; line-height:1.6; font-weight:700; }

@@ -1,0 +1,9 @@
+.passage-text { max-height:200px; overflow-y:auto; transition:max-height 0.4s ease; }
+.passage-text.expanded { max-height:600px; }
+.passage-btn { background:rgba(255,255,255,0.2); border:1.5px solid rgba(255,255,255,0.35); color:white; padding:6px 12px; border-radius:20px; font-size:13px; font-weight:800; cursor:pointer; }
+.passage-tip { background:#eef2ff; border-top:1.5px solid #c7d2fe; padding:10px 16px; font-size:13px; color:var(--accent); font-weight:800; direction:rtl; text-align:right; }
+.restate-tip { background:#ecfdf5; border:2px solid var(--mint); border-radius:14px; padding:14px; font-size:13px; color:#065f46; margin:10px 0; line-height:1.7; font-weight:700; }
+.reading-tips { background:#f8f9ff; border:2px solid var(--border); border-radius:var(--radius); padding:18px; margin:16px 0; text-align:left; }
+.reading-tips h4 { margin-bottom:12px; font-size:16px; }
+.reading-tips ul { padding-left:18px; }
+.reading-tips li { font-size:14px; margin-bottom:8px; line-height:1.7; font-weight:700; }
